@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.peppaPig{
+.peppaPig {
     position: relative;
     height: 480px;
     width: 370px;
@@ -20,18 +20,57 @@
 
 .pig_head {
     position: absolute;
-    border:6px solid #EC95C3;
+    border: 6px solid #EE96BD;
     outline: 1px solid red;
     background-color: #ffb3da;
-    border-radius: 92% 50% 50% 50%/ 87% 80% 68% 50%; 
+    border-radius: 92% 50% 50% 50%/ 87% 80% 68% 50%;
     width: 300px;
     height: 200px;
     transform: rotate(16deg);
-    left:35px;
-    top:50px;
+    left: 35px;
+    top: 50px;
 }
 
 .pig_nose {
-    height: 10px;
-    width: 20px;
+    z-index: 1;
+    position: absolute;
+    height: 90px;
+    width: 65px;
+    background-color: #ffb3da;
+    border: 6px solid #EE96BD;
+    border-radius: 80% 53% 76% 60%/ 68% 50% 70% 68%;
+    transform: rotate(27deg);
+    left: 64px;
+    top: 61px;
+}
+
+.xxx {
+    position: absolute;
+    outline: 1px solid red;
+    height: 170px;
+    width: 180px;
+    background-color: white;
+    top: 61px;
+    left: 38px;
+    transform-origin: left top;
+    transform: rotate(16deg);
+}
+
+.nostril {
+    z-index: 2;
+    position: absolute;
+    background-color: #D56D9C;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.nostril.left {
+    top: 93px;
+    left: 77px;
+}
+
+.nostril.right {
+    top: 100px;
+    left: 90px;
 }
