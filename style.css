@@ -57,24 +57,31 @@
     transform-origin: left top;
     transform: rotate(16deg);
 }
+
 .pig_nose::after {
+    content: '';
     z-index: 3;
     position: absolute;
     background-color: #D56D9C;
     height: 15px;
     width: 15px;
     border-radius: 50%;
+    top: 30px;
+    left: 7px;
 }
 
-.nostril.left {
-    top: 92px;
-    left: 67px;
+.pig_nose::before {
+    content: '';
+    z-index: 3;
+    position: absolute;
+    background-color: #D56D9C;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 28px;
+    left: 27px;
 }
 
-.nostril.right {
-    top: 103px;
-    left: 88px;
-}
 
 .eye {
     position: absolute;
