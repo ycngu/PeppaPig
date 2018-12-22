@@ -34,7 +34,7 @@
 }
 
 .pig_nose {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     height: 90px;
     width: 65px;
@@ -83,14 +83,15 @@
     border: 6px solid #EE95C1;
 }
 
-.eye.left{
+.eye.left {
     border-radius: 50% 57% 47% 50%/50% 50% 50% 50%;
     height: 40px;
     width: 40px;
     left: 166px;
     top: 80px;
 }
-.eye.right{
+
+.eye.right {
     border-radius: 50% 50% 50% 50%/55% 55% 45% 45%;
     height: 45px;
     width: 40px;
@@ -98,7 +99,7 @@
     top: 102px;
 }
 
-.eye.left::before{
+.eye.left::before {
     content: '';
     position: absolute;
     height: 15px;
@@ -109,7 +110,7 @@
     border-radius: 50%;
 }
 
-.eye.right::before{
+.eye.right::before {
     content: '';
     position: absolute;
     height: 15px;
@@ -118,4 +119,19 @@
     top: 4px;
     background-color: black;
     border-radius: 50%;
+}
+
+.nose_under {
+    position: absolute;
+    width: 93px;
+    height: 11px;
+    top: 154px;
+    left: 56px;
+    border-radius: 50% 50% 50% 50%/ 0% 0% 100% 100%;
+    border: 6px solid #ef96c2;
+    background-color: #ffb3da;
+    transform: rotate(30deg);
+    z-index: 2;
+    box-sizing: border-box;
+    border-top-color: #ffb3da;
 }
