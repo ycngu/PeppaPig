@@ -264,17 +264,38 @@
     z-index: -1;
     position: absolute;
     height: 70px;
-    width: 17px;
+    width: 11px;
     background: #FDBFD9;
     border-radius: 100% 100% 100% 100%/ 50% 50% 21% 20%;
 }
 
 .foot.left {
-    top: 396px;
-    left: 155px;
+    top: 394px;
+    left: 177px;
 }
 
 .foot.right {
-    top: 396px;
-    left: 249px;
+    top: 395px;
+    left: 264px;
 }
+
+.shoes {
+    position: absolute;
+    width: 51px;
+    height: 14px;
+    border-radius: 58% 187% 180% 50%/ 130% 123% 113% 100%;
+    background-color: #000;
+    z-index: 99;
+    transform: rotate(0deg);
+}
+
+.shoes.right{
+    top: 457px;
+    left: 227px;
+}
+
+.shoes.left{
+    top: 457px;
+    left: 138px;
+}
+
