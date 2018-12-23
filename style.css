@@ -42,8 +42,8 @@
     border: 6px solid #EE96BD;
     border-radius: 91% 53% 76% 60%/ 80% 50% 70% 68%;
     transform: rotate(30deg);
-    left: 58px;
-    top: 48px;
+    left: 54px;
+    top: 53px;
 }
 
 .xxx {
@@ -129,10 +129,10 @@
 
 .nose_under {
     position: absolute;
-    width: 82px;
+    width: 102px;
     height: 11px;
-    top: 151px;
-    left: 54px;
+    top: 138px;
+    left: 50px;
     border-radius: 50% 50% 50% 50%/ 0% 0% 100% 100%;
     border: 6px solid #ef96c2;
     background-color: #ffb3da;
@@ -146,12 +146,12 @@
     position: absolute;
     width: 80px;
     height: 87px;
-    top: 164px;
-    left: 138px;
+    top: 167px;
+    left: 119px;
     border-radius: 0% 0% 0% 76%/ 0% 0% 0% 74%;
     border: 6px solid #ef96c2;
     background-color: #ffb3da;
-    transform: rotate(16deg);
+    transform: rotate(17deg);
     z-index: 3;
     box-sizing: border-box;
     border-top-color: #ffb3da;
