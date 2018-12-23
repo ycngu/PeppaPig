@@ -24,11 +24,11 @@
     position: absolute;
     border: 6px solid #EE96BD;
     background-color: #ffb3da;
-    border-radius: 95% 50% 50% 50%/ 87% 80% 68% 50%;
-    width: 300px;
+    border-radius: 86% 50% 50% 50%/ 90% 69% 60% 35%;
+    width: 294px;
     height: 200px;
-    transform: rotate(30deg);
-    left: 35px;
+    transform: rotate(39deg);
+    left: 39px;
     top: 50px;
 }
 
@@ -53,7 +53,7 @@
     border: 6px solid #EE96BD;
     border-radius: 50% 50% 50% 50%/ 35% 40% 50% 50%;
     background: #FFB3DA;
-    top: 35px;
+    top: 37px;
     left: 260px;
     transform: rotate(32deg);
 }
@@ -61,13 +61,13 @@
 .pig_nose {
     z-index: 3;
     position: absolute;
-    height: 80px;
-    width: 60px;
+    height: 75px;
+    width: 52px;
     background-color: #ffb3da;
     border: 6px solid #EE96BD;
-    border-radius: 91% 53% 76% 60%/ 80% 50% 70% 68%;
-    transform: rotate(30deg);
-    left: 51px;
+    border-radius: 91% 60% 76% 60%/ 80% 62% 70% 68%;
+    transform: rotate(27deg);
+    left: 52px;
     top: 53px;
 }
 
@@ -77,7 +77,7 @@
     width: 180px;
     background-color: white;
     top: 78px;
-    left: 44px;
+    left: 41px;
     transform-origin: left top;
     transform: rotate(16deg);
 }
@@ -88,10 +88,10 @@
     position: absolute;
     background-color: #D56D9C;
     height: 15px;
-    width: 15px;
+    width: 14px;
     border-radius: 50%;
-    top: 30px;
-    left: 7px;
+    top: 28px;
+    left: 4px;
 }
 
 .pig_nose::before {
@@ -100,10 +100,10 @@
     position: absolute;
     background-color: #D56D9C;
     height: 15px;
-    width: 15px;
+    width: 14px;
     border-radius: 50%;
-    top: 28px;
-    left: 27px;
+    top: 26px;
+    left: 24px;
 }
 
 
@@ -115,25 +115,25 @@
 
 .eye.left {
     border-radius: 50% 57% 47% 50%/50% 50% 50% 50%;
-    height: 40px;
-    width: 40px;
-    left: 143px;
-    top: 58px;
+    height: 38px;
+    width: 38px;
+    left: 146px;
+    top: 57px;
 }
 
 .eye.right {
     border-radius: 50% 50% 50% 50%/55% 55% 45% 45%;
-    height: 45px;
-    width: 42px;
-    left: 193px;
-    top: 70px;
+    height: 40px;
+    width: 40px;
+    left: 195px;
+    top: 73px;
 }
 
 .eye.left::before {
     content: '';
     position: absolute;
-    height: 15px;
-    width: 15px;
+    height: 14px;
+    width: 14px;
     left: -1px;
     top: 3px;
     background-color: black;
@@ -143,8 +143,8 @@
 .eye.right::before {
     content: '';
     position: absolute;
-    height: 15px;
-    width: 15px;
+    height: 14px;
+    width: 14px;
     left: 1px;
     top: 4px;
     background-color: black;
@@ -153,14 +153,14 @@
 
 .nose_under {
     position: absolute;
-    width: 102px;
-    height: 11px;
-    top: 138px;
-    left: 50px;
+    width: 95px;
+    height: 5px;
+    top: 135px;
+    left: 45px;
     border-radius: 50% 50% 50% 50%/ 0% 0% 100% 100%;
     border: 6px solid #ef96c2;
     background-color: #ffb3da;
-    transform: rotate(25deg);
+    transform: rotate(28deg);
     z-index: 2;
     box-sizing: border-box;
     border-top-color: #ffb3da;
@@ -168,10 +168,10 @@
 
 .pig_jaw {
     position: absolute;
-    width: 93px;
-    height: 96px;
+    width: 103px;
+    height: 100px;
     top: 163px;
-    left: 124px;
+    left: 113px;
     border-radius: 0% 0% 0% 76%/ 0% 0% 0% 74%;
     border: 6px solid #ef96c2;
     background-color: #ffb3da;
@@ -185,12 +185,61 @@
 .fixface {
     z-index: 1;
     position: absolute;
-    height: 56px;
-    width: 132px;
+    height: 60px;
+    width: 143px;
     background-color: #ffb3da;
-    top: 86px;
-    left: 97px;
+    top: 75px;
+    left: 94px;
     transform-origin: left top;
-    transform: rotate(19deg);
+    transform: rotate(23deg);
 }
 
+.pig_mouse > .part1 {
+    z-index: 3;
+    position: absolute;
+    height: 45px;
+    width: 95px;
+    top: 188px;
+    left: 147px;
+    background: black;
+    border: 6px solid #D44B81;
+    border-radius: 0% 0% 50% 50%/ 0% 0% 80% 80%;
+    transform: rotate(20deg);
+}
+
+.pig_mouse > .part2 {
+    z-index: 4;
+    position: absolute;
+    height: 27px;
+    width: 100px;
+    top: 189px;
+    left: 148px;
+    background: #ffb3da;
+    border: 6px solid #D44B81;
+    border-top-color: transparent;
+    border-radius: 0% 0% 50% 50%/ 0% 0% 100% 100%;
+    transform: rotate(20deg);
+}
+
+.pig_mouse > .part3 {
+    z-index: 5;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    top: 171px;
+    left: 143px;
+    background: #ffb3da;
+    border-radius: 0% 0% 50% 50%/ 0% 0% 100% 100%;
+    transform: rotate(20deg);
+}
+.flush {
+    z-index: 5;
+    position: absolute;
+    width: 49px;
+    height: 59px;
+    top: 148px;
+    left: 248px;
+    border-radius: 50% 50% 50% 50%/ 50% 50% 50% 50%;
+    background-color: #ff96ce;
+    transform: rotate(26deg);
+}
