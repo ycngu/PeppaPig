@@ -23,7 +23,6 @@
 .pig_head {
     position: absolute;
     border: 6px solid #EE96BD;
-    outline: 1px solid red;
     background-color: #ffb3da;
     border-radius: 95% 50% 50% 50%/ 87% 80% 68% 50%;
     width: 300px;
@@ -42,18 +41,17 @@
     border: 6px solid #EE96BD;
     border-radius: 91% 53% 76% 60%/ 80% 50% 70% 68%;
     transform: rotate(30deg);
-    left: 54px;
+    left: 51px;
     top: 53px;
 }
 
 .xxx {
     position: absolute;
-    outline: 1px solid red;
     height: 170px;
     width: 180px;
     background-color: white;
     top: 78px;
-    left: 47px;
+    left: 44px;
     transform-origin: left top;
     transform: rotate(16deg);
 }
@@ -144,10 +142,10 @@
 
 .pig_jaw {
     position: absolute;
-    width: 80px;
-    height: 87px;
-    top: 167px;
-    left: 119px;
+    width: 93px;
+    height: 96px;
+    top: 163px;
+    left: 124px;
     border-radius: 0% 0% 0% 76%/ 0% 0% 0% 74%;
     border: 6px solid #ef96c2;
     background-color: #ffb3da;
@@ -156,4 +154,16 @@
     box-sizing: border-box;
     border-top-color: #ffb3da;
     border-right-color: #ffb3da;
+}
+
+.fixface {
+    z-index: 1;
+    position: absolute;
+    height: 56px;
+    width: 132px;
+    background-color: #ffb3da;
+    top: 86px;
+    left: 97px;
+    transform-origin: left top;
+    transform: rotate(19deg);
 }
