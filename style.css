@@ -21,7 +21,7 @@
 }
 
 .pig_head {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     border: 6px solid #EE96BD;
     background: #ffb3da;
@@ -60,7 +60,7 @@
 }
 
 .pig_nose {
-    z-index: 3;
+    z-index: 4;
     position: absolute;
     height: 75px;
     width: 52px;
@@ -73,7 +73,7 @@
 }
 
 .xxx {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     height: 170px;
     width: 180px;
@@ -116,7 +116,7 @@
 }
 
 .eye.left {
-    z-index: 2;
+    z-index: 3;
     border-radius: 50% 57% 47% 50%/50% 50% 50% 50%;
     height: 38px;
     width: 38px;
@@ -125,7 +125,7 @@
 }
 
 .eye.right {
-    z-index: 2;
+    z-index: 3;
     border-radius: 50% 50% 50% 50%/55% 55% 45% 45%;
     height: 40px;
     width: 40px;
@@ -165,7 +165,7 @@
     border: 6px solid #ef96c2;
     background: #ffb3da;
     transform: rotate(28deg);
-    z-index: 2;
+    z-index: 3;
     box-sizing: border-box;
     border-top-color: #ffb3da;
 }
@@ -187,7 +187,7 @@
 }
 
 .fixface {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     height: 86px;
     width: 143px;
@@ -250,6 +250,7 @@
 }
 
 .pig_body {
+    z-index: 1;
     position: absolute;
     width: 240px;
     height: 197px;
@@ -261,7 +262,6 @@
 }
 
 .foot {
-    z-index: -1;
     position: absolute;
     height: 70px;
     width: 11px;
@@ -285,7 +285,7 @@
     height: 14px;
     border-radius: 58% 187% 180% 50%/ 130% 123% 113% 100%;
     background-color: #000;
-    z-index: 99;
+    z-index: 3;
     transform: rotate(0deg);
 }
 
@@ -297,5 +297,16 @@
 .shoes.left{
     top: 457px;
     left: 138px;
+}
+
+.shadow {
+    position: absolute;
+    width: 240px;
+    height: 47px;
+    top: 441px;
+    left: 96px;
+    border-radius: 50% 50% 50% 50%/ 50% 50% 50% 50%;
+    background-color: rgba(171, 171, 171, 0.7);
+    transform: rotate(-1deg);
 }
 
