@@ -19,7 +19,6 @@ div:not(.wrapper) {
     position: relative;
     height: 478px;
     width: 372px;
-    outline: 1px solid red;
 }
 
 .pig_head {
@@ -395,15 +394,19 @@ div:not(.wrapper) {
 .tail_3 {
     width: 20px;
     height: 9px;
-    top: 326px;
-    left: 67px;
+    top: 360px;
+    left: 346px;
     background-color: #ffbadf;
+    border-radius: 0% 0% 50% 50%/ 0% 0% 50% 50%;
+    transform: rotate(23deg);
 }
 
 .tail_4 {
-    width: 20px;
+    width: 26px;
     height: 9px;
-    top: 326px;
-    left: 67px;
+    top: 356px;
+    left: 359px;
     background-color: #ffbadf;
+    border-radius: 50% 50% 50% 50%/ 0% 0% 50% 50%;
+    transform: rotate(-45deg);
 }
