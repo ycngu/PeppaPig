@@ -368,6 +368,42 @@ div:not(.wrapper) {
     left: 67px;
     border-radius: 60% 59% 65% 90%/ 100% 90% 89% 90%;
     background-color: #ffbadf;
-    z-index: 99;
     transform: rotate(98deg);
+}
+
+.tail_1 {
+    width: 20px;
+    height: 9px;
+    top: 358px;
+    left: 331px;
+    background-color: #ffbadf;
+    transform: rotate(-9deg);
+    border-radius: 50% 50% 50% 50%/ 0% 0% 100% 100%;
+}
+
+.tail_2 {
+    width: 23px;
+    height: 27px;
+    background: #fff;
+    top: 337px;
+    left: 339px;
+    border: 8px solid #ffbadf;
+    border-radius: 50% 50% 50% 50%/ 50% 50% 50% 50%;
+}
+
+
+.tail_3 {
+    width: 20px;
+    height: 9px;
+    top: 326px;
+    left: 67px;
+    background-color: #ffbadf;
+}
+
+.tail_4 {
+    width: 20px;
+    height: 9px;
+    top: 326px;
+    left: 67px;
+    background-color: #ffbadf;
 }
