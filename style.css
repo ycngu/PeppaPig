@@ -187,6 +187,17 @@
     z-index: 7;
 }
 
+.bottom {
+    z-index: 10;
+    position: absolute;
+    height: 5px;
+    width: 10px;
+    background: #EE96BD;
+    top: 270px;
+    left: 192px;
+    transform: rotate(16deg);
+}
+
 .fixface {
     z-index: 8;
     position: absolute;
