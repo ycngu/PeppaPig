@@ -18,7 +18,7 @@ div:not(.wrapper) {
 .peppaPig {
     position: relative;
     height: 478px;
-    width: 370px;
+    width: 372px;
     outline: 1px solid red;
 }
 
@@ -134,8 +134,8 @@ div:not(.wrapper) {
     position: absolute;
     height: 14px;
     width: 14px;
-    left: -1px;
-    top: 3px;
+    left: 1px;
+    top: 1px;
     background: black;
     border-radius: 50%;
 }
@@ -307,14 +307,39 @@ div:not(.wrapper) {
     transform: rotate(0deg);
 }
 
-.right_hand>finger_top {}
+.right_hand>.finger_top {
+    width: 10px;
+    height: 26px;
+    background: #FFBBE0;
+    border-radius: 50% 69% 51% 58%/ 50% 55% 88% 81%;
+    left: 63px;
+    top: 305px;
+    transform: rotate(90deg);
+}
 
-.right_hand>finger_middle {}
+.right_hand>.finger_middle {
+    width: 78px;
+    height: 12px;
+    top: 309px;
+    left: 50px;
+    border-radius: 100% 100% 100% 17%/ 100% 90% 16% 90%;
+    background-color: #ffbadf;
+    transform: rotate(-35deg);
+}
 
-.right_hand>finger_bottom {}
+.right_hand>.finger_bottom {
+    width: 20px;
+    height: 9px;
+    top: 326px;
+    left: 67px;
+    border-radius: 60% 59% 65% 90%/ 100% 90% 89% 90%;
+    background-color: #ffbadf;
+    z-index: 99;
+    transform: rotate(98deg);
+}
 
-.left_hand>finger_top {}
+.left_hand>.finger_top {}
 
-.left_hand>finger_middle {}
+.left_hand>.finger_middle {}
 
-.left_hand>finger_bottom {}
+.left_hand>.finger_bottom {}
