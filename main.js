@@ -407,8 +407,7 @@ css7 = `
 }
 `
 
-function xxx(words, current, prefix, content, css) {
-    console.log('limian')
+function draw(words, current, prefix, content, css) {
     let n = 0
     if (current === 7) {
         return
@@ -420,7 +419,6 @@ function xxx(words, current, prefix, content, css) {
     if (current === 0) {
 
     }else{
-        console.log(current)
         let xx = current - 1
         prefix = css[xx] + prefix
         content = css[current]
@@ -437,10 +435,9 @@ function xxx(words, current, prefix, content, css) {
         if (n >= content.length) {
             clearInterval(id)
             current += 1
-            xxx(words, current, prefix, content, css)
+            draw(words, current, prefix, content, css)
         }
     }, 10)
-    console.log(prefix)
 }
 
 
@@ -454,8 +451,8 @@ let css = {
     5: css6,
     6: css7
 }
-let words = ['首先来画头部', '然后是身体', '接着是脚', '脚下阴影也不能忘记', '然后是左手', '接着右手', '最后画上尾巴，大功告成']
+let words = ['首先我们来画头部| ω・´)', '接着画身体(*ﾟ∀ﾟ*)', '然后是脚(*ﾟーﾟ)', '脚下阴影也不能忘记(=ﾟωﾟ)=', '然后是左手( ﾟ∀。)', '接着是右手(つд⊂)', '最后画上尾巴，大功告成(*ﾟ∇ﾟ)']
 let prefix = ""
 console.log('current:',current)
 content = css[current]
-xxx(words, current, prefix, content, css)
+draw(words, current, prefix, content, css)
