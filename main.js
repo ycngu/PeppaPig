@@ -413,18 +413,14 @@ function draw(words, current, prefix, content, css) {
         return
     }
 
-    console.log(current)
-
-
     if (current === 0) {
 
-    }else{
+    } else {
         let xx = current - 1
         prefix = css[xx] + prefix
         content = css[current]
     }
-    console.log(current)
-    
+
     dom = document.querySelector('.tip')
 
     dom.innerHTML = words[current]
@@ -453,6 +449,5 @@ let css = {
 }
 let words = ['首先我们来画头部| ω・´)', '接着画身体(*ﾟ∀ﾟ*)', '然后是脚(*ﾟーﾟ)', '脚下阴影也不能忘记(=ﾟωﾟ)=', '然后是左手( ﾟ∀。)', '接着是右手(つд⊂)', '最后画上尾巴，大功告成(*ﾟ∇ﾟ)']
 let prefix = ""
-console.log('current:',current)
 content = css[current]
 draw(words, current, prefix, content, css)
